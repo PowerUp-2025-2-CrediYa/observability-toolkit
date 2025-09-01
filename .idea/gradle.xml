@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="GradleSettings">
+    <option name="linkedExternalProjectsSettings">
+      <GradleProjectSettings>
+        <option name="externalProjectPath" value="$PROJECT_DIR$/shared-observabilty-toolkit" />
+        <option name="gradleHome" value="C:/gradle/gradle-8.14.3" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$/shared-observabilty-toolkit" />
+            <option value="$PROJECT_DIR$/shared-observabilty-toolkit/observability-api" />
+            <option value="$PROJECT_DIR$/shared-observabilty-toolkit/observability-spring" />
+          </set>
+        </option>
+      </GradleProjectSettings>
+    </option>
+  </component>
+</project>

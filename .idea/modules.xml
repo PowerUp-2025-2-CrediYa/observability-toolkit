@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/observability-toolkit.iml" filepath="$PROJECT_DIR$/.idea/observability-toolkit.iml" />
+      <module fileurl="file://$PROJECT_DIR$/shared-observabilty-toolkit.iml" filepath="$PROJECT_DIR$/shared-observabilty-toolkit.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/shared-observabilty-toolkit.main.iml" filepath="$PROJECT_DIR$/.idea/modules/shared-observabilty-toolkit.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/observability-api/shared-observabilty-toolkit.observability-api.iml" filepath="$PROJECT_DIR$/.idea/modules/observability-api/shared-observabilty-toolkit.observability-api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/observability-api/shared-observabilty-toolkit.observability-api.main.iml" filepath="$PROJECT_DIR$/.idea/modules/observability-api/shared-observabilty-toolkit.observability-api.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/observability-api/shared-observabilty-toolkit.observability-api.test.iml" filepath="$PROJECT_DIR$/.idea/modules/observability-api/shared-observabilty-toolkit.observability-api.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/observability-spring/shared-observabilty-toolkit.observability-spring.iml" filepath="$PROJECT_DIR$/.idea/modules/observability-spring/shared-observabilty-toolkit.observability-spring.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/observability-spring/shared-observabilty-toolkit.observability-spring.main.iml" filepath="$PROJECT_DIR$/.idea/modules/observability-spring/shared-observabilty-toolkit.observability-spring.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/observability-spring/shared-observabilty-toolkit.observability-spring.test.iml" filepath="$PROJECT_DIR$/.idea/modules/observability-spring/shared-observabilty-toolkit.observability-spring.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/shared-observabilty-toolkit.test.iml" filepath="$PROJECT_DIR$/.idea/modules/shared-observabilty-toolkit.test.iml" />
+    </modules>
+  </component>
+</project>

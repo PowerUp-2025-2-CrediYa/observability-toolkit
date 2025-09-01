@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <bytecodeTargetLevel>
+      <module name="shared-observabilty-toolkit" target="21" />
+      <module name="shared-observabilty-toolkit.main" target="21" />
+      <module name="shared-observabilty-toolkit.observability-api" target="21" />
+      <module name="shared-observabilty-toolkit.observability-api.main" target="21" />
+      <module name="shared-observabilty-toolkit.observability-api.test" target="21" />
+      <module name="shared-observabilty-toolkit.observability-spring" target="21" />
+      <module name="shared-observabilty-toolkit.observability-spring.main" target="21" />
+      <module name="shared-observabilty-toolkit.observability-spring.test" target="21" />
+      <module name="shared-observabilty-toolkit.test" target="21" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
