@@ -1,8 +1,5 @@
-package com.pragma.observability.config;
+package com.pragma.observability;
 
-import com.pragma.observability.AppLogger;
-import com.pragma.observability.CorrelationFilter;
-import com.pragma.observability.Slf4jAppLogger;
 import org.springframework.boot.autoconfigure.AutoConfiguration;
 import org.springframework.boot.autoconfigure.condition.ConditionalOnMissingBean;
 import org.springframework.context.annotation.Bean;
