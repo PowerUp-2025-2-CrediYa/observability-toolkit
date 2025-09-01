@@ -1,1 +1,1 @@
-co.com.pragma.obs.spring.ObservabilityAutoConfiguration
+com.pragma.observability.config.ObservabilityAutoConfiguration
