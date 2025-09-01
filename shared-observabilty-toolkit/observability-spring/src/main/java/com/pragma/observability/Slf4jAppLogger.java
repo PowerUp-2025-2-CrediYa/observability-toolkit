@@ -9,6 +9,8 @@ import java.util.Map;
 public final class Slf4jAppLogger implements AppLogger{
 
     private static final Logger log = LoggerFactory.getLogger("app");
+    private static final String EVENT_KEY = "event";
+    private static final String WARN_INFO = "{} | {}";
 
     private Map<String, Object> base(LogCtx ctx) {
         Map<String, Object> m = new HashMap<>();
@@ -24,24 +26,33 @@ public final class Slf4jAppLogger implements AppLogger{
     public void info(String event, String message, LogCtx ctx, Map<String, Object> kv) {
 
         Map<String,Object> data = base(ctx);
-        if (kv != null) data.putAll(kv);
-        data.put("event", event);
-        log.info("{} | {}", message, data);
+
+        if (kv != null)
+            data.putAll(kv);
+
+        data.put(EVENT_KEY, event);
+        log.info(WARN_INFO, message, data);
     }
 
     @Override
     public void warn(String event, String message, LogCtx ctx, Map<String, Object> kv) {
         Map<String,Object> data = base(ctx);
-        if (kv != null) data.putAll(kv);
-        data.put("event", event);
-        log.warn("{} | {}", message, data);
+
+        if (kv != null)
+            data.putAll(kv);
+
+        data.put(EVENT_KEY, event);
+        log.warn(WARN_INFO, message, data);
     }
 
     @Override
     public void error(String event, String message, LogCtx ctx, Throwable ex, Map<String, Object> kv) {
         Map<String,Object> data = base(ctx);
-        if (kv != null) data.putAll(kv);
-        data.put("event", event);
-        log.error("{} | {}", message, data, ex);
+
+        if (kv != null)
+            data.putAll(kv);
+
+        data.put(EVENT_KEY, event);
+        log.error(WARN_INFO, message, data, ex);
     }
 }
